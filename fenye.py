@@ -1,5 +1,5 @@
 
-# 分布项目；
+# 分页项目；
 # 创建类；
 class Pagenation(object):
     '''
