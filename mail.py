@@ -5,8 +5,8 @@ from email.mime.text import MIMEText
 
 # 第三方SMTP发送邮件设置；
 smtpServer = "smtp.sina.com"
-sender = "zengwj1949@sina.com"
-passwd = "1949101Xl"
+sender = "ze5@na.com"
+passwd = "15874556Xl"
 
 """
 发送相关信息
@@ -24,7 +24,7 @@ try:
     mailServer.login(sender, passwd)
 
     # 接收人邮件设置；
-    receivers = ["2962372861@qq.com", "zengwj1949@sina.com"]
+    receivers = ["29@qq.com", "ze87@ina.com"]
 
     # 发送邮件，包含邮件发送方、邮件接收方、将MIMEText发送邮件的内容变成字符串等参数；
     mailServer.sendmail(sender, receivers, msg.as_string())
